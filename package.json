@@ -1,0 +1,16 @@
+{
+  "name": "menos",
+  "version": "1.0.0",
+  "description": "Menos is a minimalistic block theme for showcasing my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.7.0"
+  }
+}
