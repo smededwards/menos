@@ -1,7 +1,28 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#19191A"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Accent",
+					"slug": "accent",
+					"color": "#EFBF04"
+				}
+			],
+			"defaultPalette": false
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
@@ -12,13 +33,62 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"name": "Noto Sans",
+					"slug": "noto-sans",
+					"fontFamily": "'Noto Sans', sans-serif"
+				},
+				{
+					"name": "Noto Serif",
+					"slug": "noto-serif",
+					"fontFamily": "'Noto Serif', serif"
+				},
+				{
+					"name": "Noto Mono",
+					"slug": "noto-mono",
+					"fontFamily": "'Noto Mono', monospace"
 				}
-			]
+			],
+			"defaultFontSizes": false,
+			"customFontSize": false
 		},
 		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontSize": "2rem",
+					"lineHeight": 1.2,
+					"textAlign": "center"
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--accent)",
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--noto-serif)"
+				}
+			},
+			"preformatted": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--noto-mono)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--noto-sans)"
+		}
 	},
 	"templateParts": [
 		{
@@ -29,6 +99,5 @@
 			"area": "footer",
 			"name": "footer"
 		}
-	],
-	"version": 3
+	]
 }
