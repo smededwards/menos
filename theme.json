@@ -31,25 +31,186 @@
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
 		},
 		"typography": {
+			"dropCap": false,
+			"fluid": true,
+			"defaultFontSizes": false,
+			"customFontSize": false,
 			"fontFamilies": [
 				{
+					"fontFamily": "\"Noto Sans\", sans-serif",
 					"name": "Noto Sans",
 					"slug": "noto-sans",
-					"fontFamily": "'Noto Sans', sans-serif"
+					"fontFace": [
+						{
+							"fontFamily": "Noto Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-sans/NotoSans-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-sans/NotoSans-Italic.woff2"
+							]
+						}
+					]
 				},
 				{
+					"fontFamily": "\"Noto Serif\", serif",
 					"name": "Noto Serif",
 					"slug": "noto-serif",
-					"fontFamily": "'Noto Serif', serif"
+					"fontFace": [
+						{
+							"fontFamily": "Noto Serif",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-serif/NotoSerif-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Noto Serif",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-serif/NotoSerif-Italic.woff2"
+							]
+						}
+					]
 				},
 				{
+					"fontFamily": "\"Noto Mono\", monospace",
 					"name": "Noto Mono",
 					"slug": "noto-mono",
-					"fontFamily": "'Noto Mono', monospace"
+					"fontFace": [
+						{
+							"fontFamily": "Noto Mono",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-mono/NotoSansMono-Regular.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Noto Serif Display\", serif",
+					"name": "Noto Serif Display",
+					"slug": "noto-serif-display",
+					"fontFace": [
+						{
+							"fontFamily": "Noto Serif Display",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-serif-display/NotoSerifDisplay-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Noto Serif Display",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/noto-serif-display/NotoSerifDisplay-Italic.woff2"
+							]
+						}
+					]
 				}
 			],
-			"defaultFontSizes": false,
-			"customFontSize": false
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "0.875rem",
+						"min": "0.8rem"
+					},
+					"name": "Extra Small",
+					"size": "0.875rem",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"max": "1.125rem",
+						"min": "1rem"
+					},
+					"name": "Small",
+					"size": "1.125rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.25rem",
+						"min": "1.125rem"
+					},
+					"name": "Medium",
+					"size": "1.25rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.375rem"
+					},
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "1.875rem",
+						"min": "1.625rem"
+					},
+					"name": "Extra Large",
+					"size": "1.875rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "2rem"
+					},
+					"name": "2X Large",
+					"size": "2.5rem",
+					"slug": "xx-large"
+				},
+				{
+					"fluid": {
+						"max": "3.5rem",
+						"min": "2.75rem"
+					},
+					"name": "3X Large",
+					"size": "3.5rem",
+					"slug": "xxx-large"
+				},
+				{
+					"fluid": {
+						"max": "5rem",
+						"min": "3.75rem"
+					},
+					"name": "4X Large",
+					"size": "5rem",
+					"slug": "xxxx-large"
+				},
+				{
+					"fluid": {
+						"max": "7.125rem",
+						"min": "4.25rem"
+					},
+					"name": "5X Large",
+					"size": "7.125rem",
+					"slug": "xxxxx-large"
+				}
+			]
 		},
 		"useRootPaddingAwareAlignments": true
 	},
