@@ -4,24 +4,71 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
 			"palette": [
 				{
-					"name": "Primary",
-					"slug": "primary",
+					"name": "Deep Black",
+					"slug": "deep-black",
 					"color": "#19191A"
 				},
 				{
-					"name": "Secondary",
-					"slug": "secondary",
+					"name": "Slate Grey",
+					"slug": "slate-grey",
+					"color": "#66666B"
+				},
+				{
+					"name": "Charcoal",
+					"slug": "charcoal",
+					"color": "#424245"
+				},
+				{
+					"name": "Jet Black",
+					"slug": "jet-black",
+					"color": "#08080A"
+				},
+				{
+					"name": "Soft Gold",
+					"slug": "soft-gold",
+					"color": "#C29C69"
+				},
+				{
+					"name": "Light Gold",
+					"slug": "light-gold",
+					"color": "#FFECD2"
+				},
+				{
+					"name": "Warm Gold",
+					"slug": "warm-gold",
+					"color": "#E8C9A0"
+				},
+				{
+					"name": "Rich Gold",
+					"slug": "rich-gold",
+					"color": "#A17943"
+				},
+				{
+					"name": "Dark Gold",
+					"slug": "dark-gold",
+					"color": "#805822"
+				},
+				{
+					"name": "Pure White",
+					"slug": "pure-white",
 					"color": "#FFFFFF"
 				},
 				{
-					"name": "Accent",
-					"slug": "accent",
-					"color": "#EFBF04"
+					"name": "Soft Silver",
+					"slug": "soft-silver",
+					"color": "#CECECE"
+				},
+				{
+					"name": "Pale Grey",
+					"slug": "pale-grey",
+					"color": "#A2A0A0"
 				}
-			],
-			"defaultPalette": false
+			]
 		},
 		"layout": {
 			"contentSize": "620px",
