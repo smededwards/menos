@@ -1,0 +1,119 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Light",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Pure White",
+					"slug": "pure-white"
+				},
+				{
+					"color": "#CECECE",
+					"name": "Soft Silver",
+					"slug": "soft-silver"
+				},
+				{
+					"color": "#A2A0A0",
+					"name": "Pale Grey",
+					"slug": "pale-grey"
+				},
+				{
+					"color": "#19191A",
+					"name": "Deep Black",
+					"slug": "deep-black"
+				},
+				{
+					"color": "#66666B",
+					"name": "Slate Grey",
+					"slug": "slate-grey"
+				},
+				{
+					"color": "#424245",
+					"name": "Charcoal",
+					"slug": "charcoal"
+				},
+				{
+					"color": "#C29C69",
+					"name": "Soft Gold",
+					"slug": "soft-gold"
+				},
+				{
+					"color": "#FFECD2",
+					"name": "Light Gold",
+					"slug": "light-gold"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--deep-black)",
+					"text": "var(--wp--preset--color--pure-white)"
+				},
+				"border": {
+					"radius": "8px",
+					"style": "solid",
+					"width": "1px",
+					"color": "var(--wp--preset--color--charcoal)"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.75em",
+						"right": "1em",
+						"bottom": "0.75em",
+						"left": "1em"
+					}
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--charcoal)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--soft-gold)"
+					}
+				},
+				"typography": {
+					"textDecoration": "underline"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--deep-black)"
+				}
+			},
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--deep-black)"
+				}
+			}
+		},
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontSize": "2rem",
+					"lineHeight": "1.2",
+					"textAlign": "center"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--charcoal)"
+				}
+			},
+			"core/preformatted": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--noto-mono)"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--soft-silver)",
+					"text": "var(--wp--preset--color--deep-black)"
+				}
+			}
+		}
+	}
+}

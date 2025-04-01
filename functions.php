@@ -40,3 +40,13 @@ function menos_styles() {
 	wp_enqueue_style( 'menos-styles' );
 }
 add_action( 'wp_enqueue_scripts', 'menos_styles' );
+
+/**
+ * Add meta tag for color scheme.
+ *
+ * @since 0.1.0
+ */
+function add_color_scheme() {
+    echo '<meta name="color-scheme" content="dark light">' . PHP_EOL;
+}
+add_action('wp_head', 'add_color_scheme', 10);
