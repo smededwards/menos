@@ -307,5 +307,14 @@
 			"area": "footer",
 			"name": "footer"
 		}
+	],
+	"customTemplates": [
+		{
+			"name": "front-page",
+			"title": "Front Page",
+			"postTypes": [
+				"page"
+			]
+		}
 	]
 }
