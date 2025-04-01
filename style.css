@@ -3,7 +3,7 @@
  * Theme URI:         https://github.com/smededwards/menos/
  * Author:            Michael Edwards
  * Author URI:        https://github.com/smededwards/
- * Description: 
+ * Description:       Simple, clean, and minimal theme
  * Version:           0.1.0
  * Requires at least: 6.7
  * Tested up to:      6.7
@@ -11,5 +11,33 @@
  * License: GNU       General Public License v2 or later
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       menos
- * Tags: 
+ * Tags:              portfolio
  */
+
+/* Defaults */
+html {
+	box-sizing: border-box;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+}
+
+/* General Styles (Styles not supported in theme.json and/or not block specific) */
+a:where(:not(.wp-element-button)) {
+	text-underline-offset: 2px;
+	transition: color var(--wp--custom--transition--duration) ease-in-out;
+}
+
+h1 {
+	text-wrap: balance;
+}
+
+.wp-template-front-page-group {
+	display: flex;
+	align-items: center;
+	min-height: 80vh;
+}
+
+.wp-template-front-page-group-item {
+	margin:0 auto;
+}
